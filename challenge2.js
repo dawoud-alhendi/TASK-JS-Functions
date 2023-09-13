@@ -8,7 +8,9 @@
  */
 function greet(name) {
   // Your code here
+  console.log(`hello ${name}`)
 }
+greet("hamza")
 
 /**
  * isOdd(n):
@@ -21,6 +23,7 @@ function greet(name) {
  */
 function isOdd(n) {
   // Your code here
+  
 }
 
 /**
