@@ -7,25 +7,26 @@
  * greet("Hamza") logs "Hello Hamza"
  */
 function greet(name) {
-  // Your code here
-  console.log(`hello ${name}`)
+  console.log(`hello ${name}`);
 }
-greet("hamza")
+greet("hamza");
 
 /**
  * isOdd(n):
  * - receives a number n
  * - returns true if it's odd, false otherwise
+ 
  *
  * e.g.
  * isOdd(7) -> true
  * isOdd(10) -> false
  */
-function isOdd(n) {
-  // Your code here
-  
-}
 
+function isOdd(n) {
+  return n % 2 !== 0;
+  true;
+}
+console.log(isOdd(3));
 /**
  * oddsSmallerThan(n):
  * - receives a number n
@@ -36,8 +37,14 @@ function isOdd(n) {
  * oddsSmallerThan(15) -> 7
  */
 function oddsSmallerThan(n) {
-  // Your code here
+  let numS = 0;
+  for (numS = 1; numS < n; numS += 2) {
+    numS++;
+  }
+  return n - 2;
 }
+
+console.log(oddsSmallerThan(7));
 
 /**
  * squareOrDouble(n):
@@ -50,5 +57,12 @@ function oddsSmallerThan(n) {
  * squareOrDouble(9) -> 81
  */
 function squareOrDouble(n) {
-  // Your code here
+  const square = 0;
+  const double = 0;
+  if (n % 2 !== 0) {
+    return n * 2;
+  } else {
+    return n * n;
+  }
 }
+console.log(squareOrDouble(4));
